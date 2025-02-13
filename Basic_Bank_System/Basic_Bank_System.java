@@ -12,7 +12,7 @@ class Bank {
     public void addAccount(String accountNumber, String customerName, double balance) {
         Account account = new Account(accountNumber, customerName, balance);
         accounts.put(accountNumber, account);
-    }
+      }
 
     public void displayAccountInfo(String accountNumber) {
         if (accounts.containsKey(accountNumber)) {
